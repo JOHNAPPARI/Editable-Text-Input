@@ -1,0 +1,82 @@
+.bg-container {
+  background-color: #f5d0fe;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px 40px 30px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #000000;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 16px;
+  }
+}
+
+.edit-container {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  height: 35px;
+  border: 1px solid #cbd2d9;
+  margin-right: 20px;
+  border-radius: 4px;
+  outline: none;
+  color: #323f4b;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .input {
+    height: 45px;
+    margin-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+.paragraph {
+  color: #323f4b;
+  font-size: 25px;
+  font-weight: normal;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .paragraph {
+    font-size: 25px;
+  }
+}
+
+.button {
+  background-color: #d946ef;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 10px 15px 10px 15px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    font-size: 25px;
+  }
+}
